@@ -18,8 +18,8 @@
     "subnetName":           { "value": "cloudera-subnet"      },
 
     "tshirtSize":           { "value": "Prod"           },
-    "vmSize":               { "value": "Standard_DS11"  },
-    "storageAccountType":   { "value": "Standard_ZRS"   },
+    "vmSize":               { "value": "Standard_DS13"  },
+    "storageAccountType":   { "value": "Premium_LRS"   },
 
     "company":              { "value": "CompanyName"    },
     "emailAddress":         { "value": "name@mygovdomain.onmicrosoft.com" },
