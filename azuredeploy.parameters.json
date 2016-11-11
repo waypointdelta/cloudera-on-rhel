@@ -1,0 +1,33 @@
+{
+  "$schema": "http://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+  "contentVersion": "1.0.0.1",
+
+  "parameters": 
+  {
+    "adminUserName":        { "value": "cloudera"       },
+    "adminPassword":        { "value": "cloudera!"      },
+
+    "cmUsername":           { "value": "cmadmin"        },
+    "cmPassword":           { "value": "cmadmin"        },
+
+    "numberOfDataNodes":    { "value": 4                },
+
+    "storageAccountPrefix": { "value": "storage-mintazurebox" },
+    "dnsNamePrefix":        { "value": "box"                  },
+    "virtualNetworkName":   { "value": "network-edhmintazure" },
+    "subnetName":           { "value": "cloudera-subnet"      },
+
+    "tshirtSize":           { "value": "Prod"           },
+    "vmSize":               { "value": "Standard_DS11"  },
+    "storageAccountType":   { "value": "Standard_ZRS"   },
+
+    "company":              { "value": "CompanyName"    },
+    "emailAddress":         { "value": "name@mygovdomain.onmicrosoft.com" },
+    "businessPhone":        { "value": "123456789"      },
+    "firstName":            { "value": "firstname"      },
+    "lastName":             { "value": "lastname"       },
+    "jobRole":              { "value": "Administrator"  },
+    "jobFunction":          { "value": "Storage"        }
+
+  }
+}
