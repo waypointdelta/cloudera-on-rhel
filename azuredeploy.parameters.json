@@ -12,7 +12,7 @@
 
     "numberOfDataNodes":    { "value": 4                },
 
-    "storageAccountPrefix": { "value": "storage-mintazurebox" },
+    "storageAccountPrefix": { "value": "mintazurebox" },
     "dnsNamePrefix":        { "value": "box"                  },
     "virtualNetworkName":   { "value": "network-edhmintazure" },
     "subnetName":           { "value": "cloudera-subnet"      },
